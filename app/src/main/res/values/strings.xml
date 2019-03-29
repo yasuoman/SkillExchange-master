@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SkillExchange</string>
+    <string name="title_home">Home</string>
+    <string name="title_nearby">Nearby</string>
+    <string name="title_classification">Chat</string>
+    <string name="title_me">Me</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="gender">Gender:  </string>
+    <string name="male">  Male</string>
+    <string name="female">  Female</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_join_us_short">Join us</string>
+    <string name="register">Join us</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="enter_credentials">Enter your credentials.</string>
+    <string name="enter_emailcredentials">E-mail format is incorrect.</string>
+    <string name="btn_link_to_login">Log into your account.</string>
+</resources>

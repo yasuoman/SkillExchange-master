@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8e0e8"
+    android:orientation="vertical" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background = "@color/colorPrimary">
+
+    <ImageButton
+        android:id="@+id/imb_msg_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="btnmsgBack"
+        android:background="@null"
+        android:src="@drawable/ic_chevron_left_black_24dp" />
+
+    <TextView
+        android:id="@+id/txt_msg_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="casual"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</RelativeLayout>
+    <ListView
+        android:id="@+id/msg_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#0000" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/input_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Type somthing here"
+            android:maxLines="2" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+    </LinearLayout>
+
+</LinearLayout>

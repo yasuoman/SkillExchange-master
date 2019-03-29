@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_nearbyskill"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="3dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:cardBackgroundColor="@color/blue_show"
+
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_n_show1"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_n_usernamebefore"
+                        android:layout_width="80dp"
+                        android:layout_height="25dp"
+                        android:fontFamily="casual"
+                        android:text="   Name: "
+                        android:textColor="#9C27B0"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_n_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:fontFamily="casual"
+                        android:text="Daneil"
+                        android:textColor="#9C27B0"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/txt_n_mainskillbefore"
+                        android:layout_width="80dp"
+                        android:layout_height="25dp"
+                        android:fontFamily="casual"
+                        android:text="   Can: "
+                        android:textColor="#9C27B0"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/txt_n_mainskill"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:fontFamily="casual"
+                        android:text="Basketball Coding Swimming"
+                        android:textColor="#9C27B0"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/txt_n_mainwantshow"
+                        android:layout_width="80dp"
+                        android:layout_height="25dp"
+                        android:fontFamily="casual"
+                        android:text="   Want: "
+                        android:textColor="#9C27B0"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/txt_n_mainwant"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:fontFamily="casual"
+                        android:text="Piano Singing Happiness"
+                        android:textColor="#9C27B0"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
